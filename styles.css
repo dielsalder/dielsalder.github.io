@@ -2,10 +2,55 @@ body {
     font-family: helvetica;
     background-color: white;
     font-size: 16px;
-    padding: 40px;
+    padding: 60 0 0 60;
     font-family: 'Source Sans Pro', sans-serif;
 }
 
 h1 {
+    position: absolute;
+    left: 0;
     font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+}
+
+a {
+    color: black;
+}
+
+#header {
+    top: 0;
+    margin-right: 100;
+    padding: 30px;
+    padding-left: 0;
+    position: relative;
+    min-height: 70px;
+}
+
+#header h1 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+}
+
+nav {
+    display: block;
+    position: absolute;
+    bottom: 0;
+}
+nav ul{
+    border-bottom: 1px solid black;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    padding: 5px;
+    display: inline-block;
+    min-width: 110px;
+    text-align: left;
+}
+
+nav li:hover {
+    background: black;
+    color: white;
 }
