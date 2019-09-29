@@ -54,7 +54,7 @@ nav ul{
 
 nav li {
     padding: 5px;
-    display: inline-block;
+    display: block;
     min-width: 110px;
     text-align: left;
 }
